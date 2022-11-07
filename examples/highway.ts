@@ -5,10 +5,11 @@ import { default as axios } from 'axios';
 
 let accessToken = '';
 const config = {
-  host: '',
-  accessKey: '',
-  secretKey: '',
+  host: 'https://openapi.tuyaus.com',
+  accessKey: '7kg8xhseateqocqv5r8s',
+  secretKey: '21cd5b09adbb412b9e4f185387d11dd9',
 };
+
 
 // httpClient Instance
 const httpClient = axios.create({
